@@ -1,3 +1,10 @@
+fn fib(n: usize) -> usize {
+    match n {
+        0 | 1 => n,
+        _ => fib(n - 1) + fib(n - 2),
+    }
+}
+
 #[cfg(test)]
 mod tests {
     #[test]
