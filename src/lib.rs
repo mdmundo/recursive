@@ -1,7 +1,4 @@
-#[cfg(test)]
-mod fact_tests;
-#[cfg(test)]
-mod fib_tests;
+// About tests, check: https://doc.rust-lang.org/stable/cargo/reference/cargo-targets.html#tests
 
 pub fn fib(n: usize) -> usize {
     match n {

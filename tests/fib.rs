@@ -1,4 +1,4 @@
-use super::*;
+use recursive::fib;
 
 #[test]
 fn fib_0() {

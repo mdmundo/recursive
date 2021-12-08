@@ -1,4 +1,4 @@
-use super::*;
+use recursive::fact;
 
 #[test]
 fn fact_0() {
